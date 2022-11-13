@@ -40,3 +40,7 @@ Users appreciate release notes as you update your extension.
 ### 0.0.1
 
 Initial version. Most basic highlighting works as well as possible.
+
+## Installation
+
+* To start using this extension with Visual Studio Code copy the folder that contains this repository into the `<user home>/.vscode/extensions` folder and restart Code.
