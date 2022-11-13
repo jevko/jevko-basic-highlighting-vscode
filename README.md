@@ -33,9 +33,9 @@ Here is an illustration:
 
 ![screenshot of the bug](screenshot-bug.png)
 
-This is impossible to workaround, because TextMate grammars are line-oriented, while Jevko is not.
+This is impossible to workaround, because TextMate grammars used by Visual Studio Code for basic highlighting are line-oriented, while Jevko is not.
 
-However vscode allows more advanced extensions for semantic highlighting which have no such limitations. Once such an extension for Jevko is published, this one will be deprecated.
+However Visual Studio Code allows more advanced extensions for semantic highlighting which have no such limitations. Once such an extension for Jevko is published, this one will be deprecated.
 
 ## Release Notes
 
