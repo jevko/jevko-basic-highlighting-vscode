@@ -25,9 +25,13 @@ This extension contributes the following settings:
 
 ## Known Issues
 
-There is an unfixable bug where only the lines that contains an opening bracket `[` in Jevko prefixes are properly highlighted.
+There is an unfixable bug where only the lines that contain an opening bracket `[` in Jevko prefixes are properly highlighted.
 
 Other lines look the same as suffixes.
+
+Here is an illustration:
+
+![screenshot of the bug](screenshot-bug.png)
 
 This is impossible to workaround, because TextMate grammars are line-oriented, while Jevko is not.
 
