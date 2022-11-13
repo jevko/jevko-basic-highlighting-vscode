@@ -1,4 +1,4 @@
-# jevko-basic-highlighting
+# jevko-basic-highlighting-vscode
 
 Basic syntax highlighting for Jevko in Visual Studio Code.
 
