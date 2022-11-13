@@ -39,8 +39,6 @@ However vscode allows more advanced extensions for semantic highlighting which h
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
-
 ### 0.0.1
 
 Initial version. Most basic highlighting works as well as possible.
