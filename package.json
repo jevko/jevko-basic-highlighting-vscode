@@ -1,0 +1,25 @@
+{
+    "name": "jevko-basic-highlighting",
+    "displayName": "jevko-basic-highlighting",
+    "description": "Basic syntax highlighting for Jevko",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.63.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "jevko",
+            "aliases": ["Jevko", "jevko"],
+            "extensions": [".jevko", ".jvk"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "jevko",
+            "scopeName": "source.jevko",
+            "path": "./syntaxes/jevko.tmLanguage.json"
+        }]
+    }
+}

@@ -1,0 +1,39 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "Jevko",
+	"patterns": [
+		{
+			"include": "#prefix"
+		},
+		{
+			"include": "#suffix"
+		}
+	],
+	"repository": {
+		"digraph": {
+			"match": "`[`\\[\\]]",
+			"name": "constant.character.escape.jevko"
+		},
+		"digraph2": {
+			"match": "`[`\\[\\]]",
+			"name": "string.regexp.jevko"
+		},
+		"prefix": {
+			"name": "keyword.jevko",
+			"begin": "(?=((`[`\\[\\]])|[^`\\[\\]])+\\[)",
+			"end": "(?=\\[)",
+			"patterns": [
+				{"include": "#digraph2"}
+			]
+		},
+		"suffix": {
+			"name": "string.jevko",
+			"begin": "(?=((`[`\\[\\]])|[^`\\[\\]])+([^\\[]))",
+			"end": "(?=\\3)",
+			"patterns": [
+				{"include": "#digraph"}
+			]
+		}
+	},
+	"scopeName": "source.jevko"
+}
