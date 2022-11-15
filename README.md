@@ -4,9 +4,13 @@ Basic syntax highlighting for Jevko in Visual Studio Code.
 
 ## Features
 
-The most basic possible syntax highlighting for Jevko that works in Visual Studio Code.
+Basic syntax highlighting for Jevko that works in Visual Studio Code.
 
 ![screenshot](screenshot.png)
+
+Includes experimental support for heredocs.
+
+<!-- todo: expand on heredocs -->
 
 <!-- ## Requirements
 
